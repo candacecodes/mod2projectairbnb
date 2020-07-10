@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   post '/login', to: "auth#verify_first_name"
 
   get '/logout', to: "auth#logout", as: "logout"
+  # get '/search', to: "house#search", as: "search"
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

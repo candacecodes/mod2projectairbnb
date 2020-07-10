@@ -57,6 +57,7 @@ class HousesController < ApplicationController
         redirect_to host_path(id)    
     end
 
+
     private
 
     def house_params
